@@ -1,0 +1,1 @@
+To run the python server run `python app.py`
