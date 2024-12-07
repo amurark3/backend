@@ -6,7 +6,6 @@ use_case_1_bp = Blueprint("use_case_1", __name__)
 
 @use_case_1_bp.route("/use-case-1", methods=["POST"])
 def use_case_1():
-    print('Api called')
     sparql_query = """
     PREFIX smw: <http://www.semanticweb.org/ser531/ontologies/crimeStatistics#>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
